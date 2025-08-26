@@ -38,7 +38,6 @@ export const signup = async (req, res, next) => {
         httpOnly: true,
         sameSite: "None",
         secure: true,
-        partitioned: true,
       })
       .status(200)
       .json(rest);
@@ -68,7 +67,6 @@ export const signin = async (req, res, next) => {
         httpOnly: true,
         sameSite: "None",
         secure: true,
-        partitioned: true,
       })
       .status(200)
       .json(rest);
